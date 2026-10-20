@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.woven-video/woven",
+  "title": "Woven",
+  "description": "Make and edit videos in Woven, the AI video editor for Mac. Needs the Woven app.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.woven.video",
+  "repository": {
+    "url": "https://github.com/woven-video/woven-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.woven.video/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["1024x1024"]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@woven-video/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

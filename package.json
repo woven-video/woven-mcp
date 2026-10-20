@@ -1,0 +1,38 @@
+{
+  "name": "@woven-video/mcp",
+  "version": "0.1.0",
+  "description": "Woven's MCP connector: lets Claude Code, Codex and other AI apps make and edit videos in Woven on your Mac.",
+  "mcpName": "io.github.woven-video/woven",
+  "license": "MIT",
+  "author": "Woven Labs (https://www.woven.video)",
+  "homepage": "https://www.woven.video",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woven-video/woven-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/woven-video/woven-mcp/issues"
+  },
+  "bin": {
+    "woven-mcp": "bin/woven-mcp"
+  },
+  "files": [
+    "bin/woven-mcp",
+    "server.json"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "modelcontextprotocol",
+    "video-editing",
+    "video-editor",
+    "ai-video-editor",
+    "macos",
+    "claude-code",
+    "codex",
+    "woven"
+  ]
+}

@@ -1,0 +1,14 @@
+#!/bin/sh
+# Woven's Claude extension. It runs the connector that ships inside Woven.app.
+# Nothing here may write to stdout: stdout carries the MCP connection.
+for app in "/Applications/Woven.app" "$HOME/Applications/Woven.app"; do
+  if [ -x "$app/Contents/Resources/woven-sidecar" ]; then
+    # The bridge's real path: Woven opens itself only from a packaged path it can recognise.
+    resources=$(cd -P "$app/Contents/Resources" 2>/dev/null && pwd -P) || continue
+    exec "$resources/woven-sidecar" --mcp-stdio "$@"
+  fi
+done
+cat >&2 <<'MSG'
+Woven isn't installed. Download it from woven.video, or install it with: brew install --cask woven-video/tap/woven. Then open it and sign in.
+MSG
+exit 1
