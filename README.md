@@ -1,6 +1,6 @@
 # Woven MCP connector
 
-[Woven Video](https://www.woven.video) is an AI video editor for Mac. You import your footage, ask for the edit in chat, and fine-tune it on a real timeline. It is built for short-form video such as Reels, TikToks and YouTube Shorts.
+[Woven Video](https://www.woven.video) is an AI video editor for Mac. You import your footage, ask for the edit in chat, and fine-tune it on a real timeline. It's a full editor for long and short videos alike: YouTube videos and Shorts, podcasts, gaming videos, Reels, TikToks and more.
 
 This connector lets AI apps on your Mac, such as Claude Code and Codex, make and edit videos in Woven. Through it, the app can:
 
