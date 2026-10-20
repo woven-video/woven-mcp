@@ -2,11 +2,6 @@ MIT License
 
 Copyright (c) 2026 Woven Labs
 
-This license covers only the files in this repository (the launcher script and
-its packaging). It does not cover the Woven app, its connector, or Woven's
-services, which are proprietary and governed by Woven's terms
-(https://www.woven.video/terms).
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
