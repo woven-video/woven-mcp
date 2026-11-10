@@ -85,13 +85,13 @@ You can also skip this package and point your app straight at the connector. Tha
 
 ## Tools
 
-The tools come from the Woven app, so they change when Woven updates. This list is from Woven 0.2.23.
+The tools come from the Woven app, so they change when Woven updates. This list is from Woven 0.2.46.
 
 | Area | Tools |
 |---|---|
 | Workspaces and files | `list_workspaces` (start here), `create_workspace`, `list_files`, `read_text_file`, `import_media`, `download_file`, `download_video` |
-| Footage and audio | `look_at_media`, `transcribe_media`, `extract_audio`, `identify_song` |
-| Reels | `list_reels`, `read_reel`, `write_reel_spec`, `render_frame`, `export_reel`, `open_in_woven`, `read_woven_guide`, `list_sfx_library` |
+| Footage and audio | `read_image`, `get_video_frames`, `analyze_video`, `transcribe_media`, `extract_audio`, `identify_song` |
+| Reels | `list_reels`, `read_reel`, `write_reel_spec`, `get_reel_frames`, `export_reel`, `open_in_woven`, `read_woven_guide`, `list_sfx_library` |
 | Captions | `generate_captions`, `edit_caption_words` |
 | Generation | `list_media_models`, `generate_image`, `generate_video`, `generate_audio`, `get_generation_status`, `cancel_generation` |
 
