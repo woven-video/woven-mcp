@@ -85,7 +85,7 @@ You can also skip this package and point your app straight at the connector. Tha
 
 ## Tools
 
-The tools come from the Woven app, so they change when Woven updates. This list is from Woven 0.2.46.
+The tools come from the Woven app, so they change when Woven updates. This list is from Woven 0.2.47.
 
 | Area | Tools |
 |---|---|
